@@ -1,0 +1,72 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\usepackage{academicons}
+\definecolor{orcidlogocol}{HTML}{A6CE39}
+%------------------------------------------------------------------------------
+\usepackage{orcidlink}
+\graphicspath{ {./figs/} }
+\def\citepunct{,} %overwrite IEEE referencing for multiple citations
+\usepackage{multirow}
+\usepackage{siunitx}[=v2]
+\def\tag{A}
+\usepackage{placeins}
+\usepackage{float}
+\usepackage{graphicx}
+%------------------------------------------------------------------------------
+
+\begin{document}
+	
+	\title{Paper title}
+	
+	\author{
+		Author	\orcidlink{orci-didx-xxxx-xxxx}		
+	}
+		%	Krzysztof Jakubiak	\orcidlink{0000-0003-1195-4697} \and
+		%	Jun Liang			\orcidlink{0000-0001-7511-449X} \and
+		%	Liana Cipcigan		%\orcidlink{0000-0000-0000-0000}
+		%}
+	\maketitle
+	
+\begin{abstract}
+	Abstract
+\end{abstract}
+
+\begin{IEEEkeywords}
+	Electric Vehicle (EV), Dynamic, Wireless charging, System modelling
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+\subsection{Battery chargers}
+Charger technologies have been established for smaller batteries for everyday use, phone chargers and conductive EV charging. Understanding current applications and topologies should be used to guide system design choices as proposed chargers should also provide CC/CV control comparable to currently available chargers. Current charging topologies can be unidirectional or bidirectional, featuring PFC and DC/DC conversion \cite{charger_1}, for regular battery chargers, the most common topology is to use a VSC with an isolating transformer and passive LC filtering \cite{charger_2,charger_3}. For wireless charging, the VSC and isolating transformer are present through the charging pads, hence control is either on the primary inverter side, or a secondary switch mode DC/DC converter is added\cite{charger_4}. Rectifier control also provides an opportunity to achieve output CC/CV characteristics, while enabling bidirectional charging \cite{charger_5_bidirectional}.
+
+\subsection{Dynamic wireless primary track and pickup coils}
+Using the same coils for dynamic use cases results in short bursts of power transfer from each coil, requiring numerous coils to be places along the driving direction, each requires switching control to power on/off coils when required. The multiple coil approach has been done by ORNL \cite{dwc_coils1}, the use of wide coils presents installation issues into road surfaces and results in power fluctuation when transitioning between coils which could affect subsequent control for charging.
+An alternative for dynamic charging  is a track, which can range from an elongated coil along the driving direction. KAIST have six generations of such tracks \cite{dwc_coils2,dwc_coils3} using different ferrite cores and wiring to improve power transfer. These tracks are long and narrow (compared to the secondary coil), allowing a longer duration power transfer along the driving direction which reduces the number of coils needed for longer sections.
+
+Secondary coils for dynamic power transfer remain similar from static charging as they remain similar size to offer misalignment tolerance. Either two coils \cite{dwc_coils4,dwc_coils5} or a DQ \cite{dwc_coils6} topology is used to reduce voltage fluctuations, size/shape usually chosen to improve misalignment tolerance while a larger area increases coil inductance and total induced emf to improve power transfer. Both effectively use two separate coils which are have a sperate rectifier as their voltage and current are out of phase from one another.
+
+\section{Methodology}
+Lorem
+
+\section{Results}
+Lorem
+
+\section{Discussion}
+Lorem
+
+\section{Conclusion}
+Lorem
+
+\bibliography{references}
+\bibliographystyle{IEEEtran}
+\end{document}
