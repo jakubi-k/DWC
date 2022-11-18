@@ -14,16 +14,13 @@ zeta = 1/sqrt(2);
 D = Vo/(Vs+Vo);
 Cb = (Vo-Vb)*T/2/Rb/delta_vo;
 Lb =(2*Rb*D*zeta)^2*Cb;
-% Results at D duty cyclce approximately confirm the ripple voltage.
-% Performance degrades above 0.5 duty cycle
+% Results at D duty cyclce approximately confirm the ripple voltage. (constant D not PI)
+% Performance degrades above 0.5 duty cycle 
 
-%% PI control
 s = tf('s');
-%io = (Vo-Vb)/Rb;
-IL=(Vo-Vb)/Rb/(1-D);
-Gp = (s*Lb*IL+D*(Vs+Vo))/(s^2*Lb*Cb+s*Lb/Rb+D^2)/2;
-% step(Gp)
 
+
+%%
 kp = 4;
 ki = 10;
 Gc =  kp + ki/s;
