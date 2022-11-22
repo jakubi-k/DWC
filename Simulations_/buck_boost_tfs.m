@@ -21,8 +21,8 @@ Lb = Vs*D*T/2/delta_iL;
 %%
 s = tf('s');
 Gp = -Vs*(s*Lb*D/Rb/(1-D)^2-1)/(s^2*Lb*Cb+s*Lb/Rb+(1-D)^2)/Rb;
-kp = 0.0005;
-ki = 0.1;
+kp = 0.005;
+ki = 1;
 Gc = (s*kp+ki)/s;
 T = 1/(1+1/Gp/Gc);
 
