@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.15)  11 NOV 2022 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.15)  25 NOV 2022 11:41
 entering extended mode
 **./dwc.tex
 (dwc.tex
@@ -932,7 +932,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 (C:\Users\c2107789\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(dwc.bbl)
+(dwc.bbl [1{C:/Users/c2107789/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -944,19 +947,18 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/c2107789/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
-
+[2
 
 ] (dwc.aux)
 Package rerunfilecheck Info: File `dwc.out' has not changed.
-(rerunfilecheck)             Checksum: DE612F878FA23F2714980577B64822A9;1009.
+(rerunfilecheck)             Checksum: 96576AC990C13F2DC1880AB0D2C2F433;1139.
  ) 
 Here is how much of TeX's memory you used:
- 23713 strings out of 478927
- 467204 string characters out of 2851112
- 745407 words of memory out of 3000000
- 41138 multiletter control sequences out of 15000+600000
- 441077 words of font info for 106 fonts, out of 8000000 for 9000
+ 23726 strings out of 478927
+ 467378 string characters out of 2851112
+ 748150 words of memory out of 3000000
+ 41145 multiletter control sequences out of 15000+600000
+ 441584 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,97p,1010b,878s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/c2107789/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
@@ -965,9 +967,9 @@ fb><C:/Users/c2107789/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi
 8a.pfb><C:/Users/c2107789/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Users/c2107789/AppData/Local/Programs/MiKTeX/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on dwc.pdf (1 page, 70142 bytes).
+Output written on dwc.pdf (2 pages, 76855 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
