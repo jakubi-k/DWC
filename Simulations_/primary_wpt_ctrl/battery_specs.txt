@@ -1,0 +1,8 @@
+https://stealthev.com/product/tesla-module/
+85kWh pack ~= 400V nominal, 230Ah.
+
+Practical values : https://ieeexplore.ieee.org/abstract/document/7468105
+Prac. values + Full active rectifier: https://www.mdpi.com/1996-1073/14/1/218
+values + load filter: https://ieeexplore.ieee.org/abstract/document/7056204
+values + compensation calc: https://www.sciencedirect.com/science/article/pii/S2351978919302719
+buck boost filter: https://ieeexplore.ieee.org/abstract/document/8063878
